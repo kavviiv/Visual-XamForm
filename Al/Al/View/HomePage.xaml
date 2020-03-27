@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Al.View.HomePage" BackgroundColor="#FF0000">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Album Shop" HorizontalTextAlignment="Center" FontAttributes="Bold" FontSize="Title" Margin="0,10,0,0" TextColor="#FFFFFF" />
+            <Frame HorizontalOptions="Center" HeightRequest="250" WidthRequest="300" VerticalOptions="CenterAndExpand"  >
+                <Grid>
+                    <Image Source="Sc1.png"  WidthRequest="10" HorizontalOptions="Fill" VerticalOptions="Start" Margin="0" HeightRequest="200"/>
+                    <Button Text="Album Cataloge" WidthRequest="-1" HeightRequest="50" HorizontalOptions="Fill" VerticalOptions="Center" Margin="0,210,0,0" BackgroundColor="#00FF64" TextColor="#FFFFFF" FontAttributes="Bold" FontSize="Large" Clicked="Button_Clicked_1"
+                            />
+                </Grid>
+            </Frame>
+
+            
+
+            <Button Text="Logout" Clicked="Button_Clicked" VerticalOptions="End" HorizontalOptions="Fill" BackgroundColor="#FFFFFF" TextColor="#0064FF" FontSize="Title" FontAttributes="Bold" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

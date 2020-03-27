@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Al.View.Cataloge" BackgroundColor="#0C32FF">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="0">
+                <Label Text="Album Shop"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                Margin  =" 16" FontAttributes="Bold" FontSize="Title" TextColor="#FFFFFF"/>
+                <Frame>
+                    <!--ซ้าย-->
+                    <Grid Margin="0,0,0,0">
+                        <Label Text="Holiday Night" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="End" TextColor="#0A0A0A"  />
+                        <Label Text="Girls' Generation" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="End" Margin="0,30,0,0" TextColor="#000000" />
+                        <Label Text="650  บาท" FontSize="Caption" HorizontalTextAlignment="End" Margin="0,60,0,0" TextColor="#000000" />
+                        <Image Source="co1.png" HeightRequest="150" Margin="0" HorizontalOptions="Start" AnchorY="0.2" AnchorX="0.2"/>
+                        <!--Label Text="Release Date: 2017.08.04 Genre: Dance, Ballad, Blues, R&B / Soul Language: Korean" FontSize="Subtitle" TextColor="#000000" HorizontalTextAlignment="End" />-->
+
+                        <Button Text="Order" Visual="Material" WidthRequest="100" HeightRequest="5" HorizontalOptions="End" Margin="0,100,0,0" Clicked="Button_Clicked"/>
+                    </Grid>
+                </Frame>
+
+                <Frame Margin="0,0,0,0" >
+                    <!---ขวา-->
+                    <Grid>
+                        <Label Text="The Boys : Repack" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Start" TextColor="#0A0A0A" FontFamily="TH Nitamit"  />
+                        <Label Text="Girls' Generation" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Start" Margin="0,30,0,0" TextColor="#000000" />
+                        <Label Text="850  บาท" FontSize="Caption" HorizontalTextAlignment="Start" Margin="0,60,0,0" TextColor="#000000" />
+                        <Image Source="co2.png" HeightRequest="150" Margin="0" HorizontalOptions="End" AnchorY="0.2" AnchorX="0.2"  />
+                        <Button Text="Order" Clicked="Button_Clicked_1" Visual="Material" WidthRequest="100" HeightRequest="5" HorizontalOptions="Center" Margin="0,100,50,0"/>
+
+                    </Grid>
+                </Frame>
+
+                <Frame>
+                    <Grid>
+                        <Label Text="Summer Magic" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="End" TextColor="#0A0A0A"  />
+                        <Label Text="Red Velvet" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="End" Margin="0,30,0,0" TextColor="#000000" />
+                        <Label Text="450  บาท" FontSize="Caption" HorizontalTextAlignment="End" Margin="0,60,0,0" TextColor="#000000" />
+                        <Image Source="co3.png" HeightRequest="150" Margin="0" HorizontalOptions="Start" AnchorY="0.2" AnchorX="0.2"  />
+
+                        <Button Text="Order" Clicked="Button_Clicked_2" Visual="Material" WidthRequest="100" HeightRequest="5" HorizontalOptions="End" Margin="0,100,0,0"/>
+                    </Grid>
+                </Frame>
+
+                <Frame>
+                    <Grid>
+                        <Label Text="Obsession" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Start" TextColor="#0A0A0A"  />
+                        <Label Text="EXO" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="Start" Margin="0,30,0,0" TextColor="#000000" />
+                        <Label Text="550  บาท" FontSize="Caption" HorizontalTextAlignment="Start" Margin="0,60,0,0" TextColor="#000000" />
+                        <Image Source="co4.jpg" HeightRequest="150" Margin="0" HorizontalOptions="End" AnchorY="0.2" AnchorX="0.2"  />
+                        <Button Text="Order" Clicked="Button_Clicked_3" Visual="Material" WidthRequest="100" HeightRequest="5" HorizontalOptions="Start" Margin="0,100,0,0"/>
+                    </Grid>
+                </Frame>
+
+                <Frame>
+                    <Grid>
+                        <Label Text="Map Of The Soul 7" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="End" TextColor="#0A0A0A"  />
+                        <Label Text="BTS" FontAttributes="Bold" FontSize="Large" HorizontalTextAlignment="End" Margin="0,30,0,0" TextColor="#000000" />
+                        <Label Text="1650  บาท" FontSize="Caption" HorizontalTextAlignment="End" Margin="0,60,0,0" TextColor="#000000" />
+                        <Image Source="co5.jpg" HeightRequest="150" Margin="0" HorizontalOptions="Start" AnchorY="0.2" AnchorX="0.2"  />
+                        <Button Text="Order" Clicked="Button_Clicked_4" Visual="Material" WidthRequest="100" HeightRequest="5" HorizontalOptions="End" Margin="0,100,0,0"/>
+                    </Grid>
+                </Frame>
+
+
+
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
